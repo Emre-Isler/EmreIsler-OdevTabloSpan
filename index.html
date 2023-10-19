@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bold{
+            font-weight: bold;
+        }
+        table,th,td{
+            border: 1px solid black
+        }
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Birleştirilmiş Tablo</h2>
+        <table>
+            <tr>
+                <th>Ürün</th>
+                <th>Fiyat</th>
+                <th>Adet</th>
+                <th>Toplam</th>
+            </tr>
+
+            <tr>
+                <td>IPhone</td>
+                <td>€ 970</td>
+                <td colspan="2">2</td>
+                <!-- <td class="bold">€ 1940</td> -->
+            </tr>
+            <tr>
+                <td>IPad</td>
+                <td>€ 650</td>
+                <td>1</td>
+                <td class="bold">€ 650</td>
+            </tr>
+            <tr>
+                <td>MacBook</td>
+                <td>€ 1250</td>
+                <td>1</td>
+                <td class="bold" rowspan="2">€ 1250</td>
+            </tr>
+            <tr>
+                <td>IMac</td>
+                <td>€ 2500</td>
+                <td>1</td>
+                <!-- <td class="bold">€ 2500</td> -->
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h2>Normal Tablo</h2>
+        <table>
+            <tr>
+                <th>Ürün</th>
+                <th>Fiyat</th>
+                <th>Adet</th>
+                <th>Toplam</th>
+            </tr>
+
+            <tr>
+                <td>IPhone</td>
+                <td>€ 970</td>
+                <td>2</td>
+                <td class="bold">€ 1940</td>
+            </tr>
+            <tr>
+                <td>IPad</td>
+                <td>€ 650</td>
+                <td>1</td>
+                <td class="bold">€ 650</td>
+            </tr>
+            <tr>
+                <td>MacBook</td>
+                <td>€ 1250</td>
+                <td>1</td>
+                <td class="bold">€ 1250</td>
+            </tr>
+            <tr>
+                <td>IMac</td>
+                <td>€ 2500</td>
+                <td>1</td>
+                <td class="bold">€ 2500</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
